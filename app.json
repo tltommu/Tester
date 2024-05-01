@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "Tester",
-    "slug": "Tester",
+    "scheme": "tester",
+    "slug": "aora-geqsgmmycd89tpfqyisl2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +16,31 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package": "a.a.Aora",
+      "bundleIdentifier": "com.tltommu.aorageqsgmmycd89tpfqyisl2"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tltommu.aorageqsgmmycd89tpfqyisl2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d2e49ec9-dd63-4b39-bd35-11e997e8eaea"
+      }
+    },
+    "owner": "tltommu"
   }
 }
