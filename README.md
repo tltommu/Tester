@@ -36,23 +36,23 @@ Backend managed by [Appwrite](https://appwrite.io/)
 5. Within the video collection ID go to attributes and create 5 attributes
 6. The attributes for video collection ID:
 
-| Key | Type |
-| -------- | ------- |
-| Title | string |
-| thumbnail | url |
-| prompt | string |
-| Video | url |
-| creator | relationship |
+| Key | Type | Required |
+| -------- | ------- | ------- |
+| Title | string | Yes |
+| thumbnail | url | Yes |
+| prompt | string | Yes |
+| Video | url | Yes |
+| creator | relationship | Yes |
 
 7. Within the users collection ID and create 4 attributes
 8. The arrributes for users collection ID:
 
-| Key | Type |
-| -------- | ------- |
-| user | string |
-| email | email |
-| avatar | url |
-| account ID | string |
+| Key | Type | Required | 
+| -------- | ------- | ------- | 
+| user | string | Yes |
+| email | email | Yes |
+| avatar | url | Yes |
+| account ID | string | Yes |
 
 9. Additional backend logic are located in the `Appwrite.js` file and `useAppwrite.js` file in this repo
 
