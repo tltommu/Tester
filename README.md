@@ -7,8 +7,9 @@ Have [node](https://nodejs.org/en) installed
 Run the following command in terminal
 
 1.```
-npm create vite@latest --template react ideas-tracker && cd ideas-tracker
+npx create-expo-app my-app
 ```
+you can modify `my-app` to change the name of the project
 
 2.```
 npm install appwrite@14.0.1
@@ -32,29 +33,31 @@ Backend managed by [Appwrite](https://appwrite.io/)
 5. Within the video collection ID go to attributes and create 5 attributes
 The attributes for video collection ID:
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Key | Type |
+| -------- | ------- |
+| Title | string |
+| thumbnail | url |
+| prompt | string |
+| Video | url |
+| creator | relationship |
 
 The attributes for user collection ID:
-6.| Key | Type |
+6. Within the users collection ID and create 4 attributes
+The arrributes for users collection ID:
+
+| Key | Type |
 | -------- | ------- |
 | user | string |
 | email | email |
 | avatar | url |
 | account ID | string |
 
+7. Additional backend logic are located in the `Appwrite.js` file and `useAppwrite.js` file in this repo
+
 
 
 CI/CD by [expo](https://expo.dev/)
 ---
-quick code snippet 
-```
-npx create-expo-app my-app
-```
-
-you can modify `my-app` to change the name of the project
 
 running the app in dev mode
 ```
