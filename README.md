@@ -31,7 +31,7 @@ Backend managed by [Appwrite](https://appwrite.io/)
 4. Create two collections (in this example the collection ID would be users and video)
 5. Within the video collection ID go to attributes and create 5 attributes
 The attributes
-|Key|Type
+|Key|Type|
 
 
 CI/CD by [expo](https://expo.dev/)
