@@ -34,7 +34,7 @@ Backend managed by [Appwrite](https://appwrite.io/)
 3. Create a database
 4. Create two collections (in this example the collection ID would be users and video)
 5. Within the video collection ID go to attributes and create 5 attributes
-The attributes for video collection ID:
+6. The attributes for video collection ID:
 
 | Key | Type |
 | -------- | ------- |
@@ -44,8 +44,8 @@ The attributes for video collection ID:
 | Video | url |
 | creator | relationship |
 
-The attributes for user collection ID:
-6. Within the users collection ID and create 4 attributes
+7. The attributes for user collection ID:
+8. Within the users collection ID and create 4 attributes
 The arrributes for users collection ID:
 
 | Key | Type |
