@@ -42,7 +42,7 @@ Backend managed by [Appwrite](https://appwrite.io/)
 | thumbnail | url | Yes |
 | prompt | string | Yes |
 | Video | url | Yes |
-| creator | relationship | Yes |
+| creator | relationship | / |
 
 7. Within the users collection ID and create 4 attributes
 8. The arrributes for users collection ID:
