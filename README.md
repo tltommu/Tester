@@ -6,12 +6,15 @@ Have [node](https://nodejs.org/en) installed
 
 Run the following command in terminal
 
-1.```
+1.
+```
 npx create-expo-app my-app
 ```
 you can modify `my-app` to change the name of the project
 
-2.```
+2.
+
+```
 npm install appwrite@14.0.1
 ```
 
