@@ -44,9 +44,8 @@ Backend managed by [Appwrite](https://appwrite.io/)
 | Video | url |
 | creator | relationship |
 
-7. The attributes for user collection ID:
-8. Within the users collection ID and create 4 attributes
-The arrributes for users collection ID:
+7. Within the users collection ID and create 4 attributes
+8. The arrributes for users collection ID:
 
 | Key | Type |
 | -------- | ------- |
@@ -55,7 +54,7 @@ The arrributes for users collection ID:
 | avatar | url |
 | account ID | string |
 
-7. Additional backend logic are located in the `Appwrite.js` file and `useAppwrite.js` file in this repo
+9. Additional backend logic are located in the `Appwrite.js` file and `useAppwrite.js` file in this repo
 
 
 
